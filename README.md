@@ -1,2 +1,3 @@
 # cuda-dli
-Source codes of examples from courses by NVIDIA Deep Learning Institute
+Examples from courses by NVIDIA Deep Learning Institute
+https://www.nvidia.com/en-us/training/online/
