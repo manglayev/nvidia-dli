@@ -1,0 +1,5 @@
+g++ -std=c++11 -o daxpy starting_point.cpp
+./daxpy 1000000
+
+g++ -std=c++11 -Ofast -march=native -DNDEBUG -o daxpy starting_point.cpp
+./daxpy 10000000

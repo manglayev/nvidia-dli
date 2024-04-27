@@ -1,0 +1,5 @@
+Algorithms library
+https://en.cppreference.com/w/cpp/algorithm
+
+std::transform
+https://en.cppreference.com/w/cpp/algorithm/transform
