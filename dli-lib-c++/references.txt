@@ -3,3 +3,9 @@ https://en.cppreference.com/w/cpp/algorithm
 
 std::transform
 https://en.cppreference.com/w/cpp/algorithm/transform
+std::ranges::views::iota, std::ranges::iota_view
+https://en.cppreference.com/w/cpp/ranges/iota_view
+std::for_each_n
+https://en.cppreference.com/w/cpp/algorithm/for_each_n
+std::fill_n
+https://en.cppreference.com/w/cpp/algorithm/fill_n
