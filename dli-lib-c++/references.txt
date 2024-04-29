@@ -9,3 +9,15 @@ std::for_each_n
 https://en.cppreference.com/w/cpp/algorithm/for_each_n
 std::fill_n
 https://en.cppreference.com/w/cpp/algorithm/fill_n
+std::copy, std::copy_if
+https://en.cppreference.com/w/cpp/algorithm/copy
+std::copy_backward
+https://en.cppreference.com/w/cpp/algorithm/copy_backward
+std::back_inserter
+https://en.cppreference.com/w/cpp/iterator/back_inserter
+std::inclusive_scan
+https://en.cppreference.com/w/cpp/algorithm/inclusive_scan
+std::for_each
+https://en.cppreference.com/w/cpp/algorithm/for_each
+std::transform_inclusive_scan
+https://en.cppreference.com/w/cpp/algorithm/transform_inclusive_scan

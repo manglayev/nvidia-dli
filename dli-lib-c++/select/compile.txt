@@ -1,0 +1,18 @@
+COMPILE:
+g++ -std=c++20 -Ofast -march=native -DNDEBUG -o select exercise1.cpp
+
+clang++ -std=c++20 -Ofast -march=native -DNDEBUG -o select exercise1.cpp
+
+nvc++ -std=c++20 -O4 -fast -tp=native -Mllvm-fast -DNDEBUG -Mllvm-fast -o select exercise1.cpp
+
+
+g++ -std=c++20 -Ofast -march=native -DNDEBUG -o select solutions/exercise2.cpp -ltbb
+
+clang++ -std=c++20 -Ofast -march=native -DNDEBUG -o select solutions/exercise2.cpp -ltbb
+
+nvc++ -stdpar=multicore -std=c++20 -O4 -fast -march=native -Mllvm-fast -DNDEBUG -o select solutions/exercise2.cpp
+
+nvc++ -stdpar=gpu -std=c++20 -O4 -fast -march=native -Mllvm-fast -DNDEBUG -o select solutions/exercise2.cpp
+
+RUN:
+!./select 30
